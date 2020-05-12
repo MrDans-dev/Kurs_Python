@@ -1,11 +1,29 @@
 import random as rd
 import string
+import math
 
-tablica1 = [] 
-lista1 = {"a","b","c"}
+tablica1 = []
+mieszana = ['Ala',1,1.5,3j,"F",hex(15)]
+tablica3 =[]
+lista1 = {}
 slownik = {"1":"A","2":"B"}
 for i in range(1,11):
     tablica1.append(i)
+
+for i in range(10,0,-1):
+    tablica3.append(i)
+
+wynik = [i for i in tablica1]
+#wynik = tablica1
+for i in tablica1:
+    print(i)
+
+for i in range(0,len(tablica1)):
+    print(tablica1[i])
+
+print(wynik)
+print()
+print(tablica3)
 
 print(tablica1) #[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 

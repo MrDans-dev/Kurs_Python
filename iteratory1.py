@@ -48,7 +48,7 @@ class Pracownik(Osoba):
     def jakie_stano(self):
         print(self.imie+" pracuje na stanowisku "+self.stano)
 
-Jarek = Pracownik("Jarek","Kowalski",15,6,1975,"Prezes",2100,"Microsoft")
+Jarek = Pracownik("Jarek","Kowalsky",15,6,1975,"Prezes",2100,"Microsoft")
 print(Jarek.wiek())
 Jarek.ile_ma_lat()
 Jarek.jakie_stano()
